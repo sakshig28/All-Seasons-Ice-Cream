@@ -1,144 +1,269 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <!--What will appear at the "Tab" of the browser-->
-    <title> All Seasons Ice Cream </title>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!--Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--Allows for the html document to read colors and other things from styles.css-->
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>All Seasons Ice Cream</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <!-- Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins:400, 900">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+  <!-- Local CSS link -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">All Seasons Ice Cream </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Services</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link" href="#">Contact Us</a>
 
-            </div>
+  <!-- Navbar -->
+  <div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <!-- Nav Header -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand"><i class="fa fa-paw" aria-hidden="true"></i> All Seasons Ice Cream <i class="fa fa-paw" aria-hidden="true"></i></a> </div>
+      <!-- Nav Content -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">&#x1f366; Home</a></li>
+          <li><a href="services.html">&#x1f366; Services</a></li>
+          <li><a href="flavor.html">&#x1f366; Flavors</a></li>
+          <li><a href="pricing.html">&#x1f366; Pricing</a></li>
+          <li><a href="team.html">&#x1f366; Team</a></li>
+          <li><a href="client.html">&#x1f366; Client</a></li>
+          <li><a href="contact.html">&#x1f366; Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div id="header" class="header">
+    <div class="container">
+
+      <div class="row">
+        <!-- Left column -->
+        <div class="col-lg-6 col-md-6">
+          <h1 style="margin-top:75px;">WELCOME TO!</h1>
+          <h2><i class="fa fa-paw" aria-hidden="true"></i> ALL SEASONS ICE CREAM <i class="fa fa-paw" aria-hidden="true"></i></h2>
+          <p>All Seasons Ice Cream was founded in 1997 by the Roberts family. They started off with only three flavors: vanilla, chocolate and strawberry. As time passed and they had more money to build upon their small family business they expanded their
+            franchise and started creating more flavors. Now they are international with their ice cream flavors.</p>
+          <a href="flavor.html">
+            <div class="buttonholder">
+              <button style="center" class="btn btn-lg btn-primary">&#x1f366; Our Flavors!</button></a>
+          </div>
         </div>
-    </nav>
-
-    <!--Start of Header-->
-    <header class="d-flex align-items-center">
-        <div class=c ontainer>
-            <h1>Welcome to All Seasons Ice Cream</h1>
-            <p>All Seasons Ice Cream was founded in 1997 by the Roberts family. They started off with only three flavors: vanilla, chocolate and strawberry. As time passed and they had more money to build upon their small family business they expanded their franchise and started creating more flavors </p>
-            <!--<button type="button" class="btn btn-dark"></button>-->
-            <!-- <button type="button" class="btn btn-dark">View Details</button>-->
+        <!-- Right column -->
+        <div class="col-lg-6 col-md-6">
+          <img src="https://media.giphy.com/media/xUA7aYkQ30mDbe5arS/giphy.gif" style="height:300px; width:300px; margin-top:75px;"></img>
         </div>
-    </header>
-    <!--End of Header-->
- <section class= "services container">
-            
-            <h1>Hello guys</h1>
-            <p> yeoogufegfheghefhgehge</p>
-            <hr></hr>
-            <div class="row">
-                <div class= "col-md-6">
-                    <i class= ""
-                    <span><strong>Web Design</strong></span>
-                    <p>dsjghhfdsjgkudsigewrigowegirweogiweoflewiroqwriewotewtiewfisfiuwe9fiewfo</p>
-                    
-                </div>
-                
-                <div class= "col-md-6">
-                    <span><strong>Video editing</strong></span>
-                    <p>fhburejgjerdgierugiewrugjewigjdwigjwe9giwegowjgiewtiruewofiwefoaei</p>
-                </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Flavors-->
+  <!--Reference for hover effect: http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/ -->
+  <section class="flavors container">
+    <div class="row">
+      <h2>Flavors</h2>
+    </div>
+    <div class="row">
+      
+      <div class="col-md-3">
+        <div class="hvrbox">
+          <img src="vanilla.jpg"></img>
+          <div class="hvrbox-layer_top">
+            <div class="hvrbox-text">Vanilla</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+      <div class="col-md-3">
+        <img src="vanilla.jpg"></img>
+      </div>
+    </div>
+
+  </section>
+
+  <!--Services-->
+  <section class="services container">
+    <div class="row">
+      <h2>Pricing</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <p>One Scoop</p>
+        <img src="one.jpg"></img>
+        <p>$1.50</p>
+      </div>
+      <div class="col-md-3">
+        <p>Two Scoops</p>
+        <img src="one.jpg"></img>
+        <p>$2.50</p>
+      </div>
+      <div class="col-md-3">
+        <p>Pint</p>
+        <img src="one.jpg"></img>
+        <p>$5.50</p>
+      </div>
+      <div class="col-md-3">
+        <p>Quart</p>
+        <img src="one.jpg"></img>
+        <p>$6.25</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Team-->
+  <!-- Look into the background-size property to get rid of the stretching-->
+  <section class="team container">
+    <h1>Team</h1>
+    <div class="row">
+      <div class="col-md-5">
+        <img src="person1.jpeg"></img>
+        <h3>team member name</h3>
+        <h4>team member description</h4>
+        <p></p>
+
+
+      </div>
+      <div class="col-md-7">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+
+      </div>
+      <div class="col-md-5">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <img src=""></img>
+        <h3>team member name</h3>
+        <h4>team member description</h4>
+        <p></p>
+      </div>
+      <div class="col-md-7">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+
+      </div>
+      <div class="col-md-5">
+
+      </div>
+    </div>
+  </section>
+
+  <!--Trusted By -->
+   <section class="services container">
+        <div class="row"> 
+            <div class="col-md-6">
+                <img src=""></img>
+    
+    
+    
+    
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <div id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <h4>Contact Us</h4>
+          <p><i class="fa fa-home" aria-hidden="true"></i>All Seasons Ice Cream</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i>AllSeasonsIcecream@gmail.com</p>
+          <p><i class="fa fa-phone" aria-hidden="true"></i>(201) 967-8098</p>
+          <p><i class="fa fa-globe" aria-hidden="true"></i>Po Box 310 Fleischmanns, NY, 12430</p>
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <h4>Stay In Touch</h4>
+          <i class="social fa fa-facebook" aria-hidden="true"></i>
+          <i class="social fa fa-twitter" aria-hidden="true"></i>
+          <i class="social fa fa-instagram" aria-hidden="true"></i>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Subscribe for Updates">
+            <div class="input-group-append">
+              <button class="btn btn-success">Subscribe</button>
             </div>
-        </section>
+          </div>
 
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+  </script>
 
+  <!-- WOW.is -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+  <script>
+    new WOW().init();
+  </script>
 
+  <!-- BOOTSTRAP Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
